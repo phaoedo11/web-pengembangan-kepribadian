@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 13 - Proses Seumur Hidup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 13 — Pengembangan sebagai Proses Seumur Hidup</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="materi9.html">Materi 9</option>
+    <option value="materi10.html">Materi 10</option>
+    <option value="materi11.html">Materi 11</option>
+    <option value="materi12.html">Materi 12</option>
+    <option value="materi13.html" selected>Materi 13</option>
+    <option value="materi14.html">Materi 14</option>
+  </select>
+</nav>
+
+<section>
+<p>
+Tidak ada orang yang langsung menjadi sempurna. Pengembangan kepribadian adalah proses
+panjang yang berlangsung seumur hidup. Setiap pengalaman — baik menyenangkan maupun
+menyakitkan — adalah pelajaran yang membentuk diri kita.
+</p>
+<p>
+Selama seseorang mau belajar, memperbaiki diri, dan terbuka terhadap masukan, maka ia
+akan terus bertumbuh. Bahkan kegagalan dan kesalahan pun bisa menjadi batu pijakan
+untuk melangkah lebih jauh.
+</p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){const h=document.getElementById("pilihMateri").value;if(h)location.href=h;}
+</script>
+
+</body>
+</html>

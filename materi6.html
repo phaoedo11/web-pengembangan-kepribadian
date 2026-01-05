@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 6 - Percaya Diri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 6 — Percaya Diri</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html" selected>Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Percaya diri muncul ketika seseorang menyadari kemampuannya dan tetap rendah hati.
+    Rasa percaya diri mendorong keberanian mencoba hal baru, berbicara di depan orang,
+    serta tidak mudah terpengaruh komentar negatif. Kepercayaan diri tumbuh melalui latihan,
+    pengalaman, dan evaluasi diri yang jujur.
+  </p>
+
+  <p>
+    Banyak orang merasa kurang percaya diri karena terlalu sering membandingkan diri
+    dengan orang lain. Padahal, setiap orang memiliki kelebihan dan proses belajar yang
+    berbeda. Menyadari potensi diri dan fokus pada perkembangan pribadi jauh lebih
+    penting dibanding terus membandingkan diri.
+  </p>
+
+  <p>
+    Kepercayaan diri tidak berarti selalu benar atau tidak pernah takut.
+    Orang yang percaya diri justru berani mengakui keterbatasannya,
+    meminta bantuan saat diperlukan, dan tetap mencoba meskipun ada kemungkinan gagal.
+    Dari kegagalan itulah pengalaman berharga didapat.
+  </p>
+
+  <p>
+    Cara sederhana membangun rasa percaya diri adalah memulai dari langkah kecil:
+    berani menyampaikan pendapat, aktif bertanya di kelas, atau mencoba peran baru.
+    Setiap keberhasilan kecil akan menambah keyakinan bahwa diri kita mampu.
+  </p>
+
+  <p>
+    Lingkungan yang mendukung juga berpengaruh. Bertemanlah dengan orang-orang
+    yang memberi semangat, bukan yang meremehkan. Kata-kata positif, apresiasi,
+    dan dukungan moral dapat menumbuhkan rasa percaya diri lebih cepat.
+  </p>
+
+  <p>
+    Pada akhirnya, percaya diri adalah sikap menerima diri apa adanya,
+    sambil terus berusaha menjadi lebih baik. Dengan rasa percaya diri,
+    seseorang lebih berani mengambil peluang dan siap menghadapi tantangan
+    dalam kehidupan.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h = document.getElementById("pilihMateri").value;
+  if (h) location.href = h;
+}
+</script>
+
+</body>
+</html>

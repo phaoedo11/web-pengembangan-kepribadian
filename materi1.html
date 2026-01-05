@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 1 - Mengenal Diri Sendiri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 1 — Mengenal Diri Sendiri</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html" selected>Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Mengenal diri sendiri adalah pondasi utama pengembangan kepribadian. Saat seseorang memahami
+    kelebihan, kekurangan, minat, serta nilai hidupnya, ia akan lebih mudah menentukan arah tujuan.
+    Proses ini menuntut kejujuran untuk menilai diri, keberanian menerima kekurangan, dan kemauan
+    memperbaiki hal-hal yang belum baik. Dengan pemahaman diri yang baik, keputusan yang diambil
+    biasanya lebih matang dan bertanggung jawab.
+  </p>
+
+  <p>
+    Mengenal diri juga berarti memahami bagaimana kita merespons tekanan, kegagalan, maupun
+    keberhasilan. Ada orang yang cepat putus asa ketika gagal, ada pula yang justru menjadikannya
+    bahan belajar. Dengan menyadari pola tersebut, kita bisa melatih diri untuk menjadi lebih tenang,
+    tidak mudah terbawa emosi, dan mampu melihat masalah dari sudut pandang yang lebih luas.
+  </p>
+
+  <p>
+    Selain itu, penting bagi kita untuk mengetahui apa yang benar-benar membuat kita merasa bahagia
+    dan bersemangat. Terkadang seseorang mengikuti pilihan orang lain hanya karena ikut-ikutan,
+    bukan karena itu yang ia inginkan. Ketika kita paham apa yang kita sukai, kita bisa merancang
+    langkah kecil yang mengarah pada cita-cita yang lebih jelas.
+  </p>
+
+  <p>
+    Cara sederhana untuk mulai mengenal diri sendiri dapat dilakukan melalui refleksi harian,
+    menuliskan jurnal, atau bertanya pada orang terdekat tentang bagaimana mereka melihat diri kita.
+    Dari sana, kita bisa membandingkan pandangan diri sendiri dengan orang lain, lalu mengambil
+    pelajaran untuk berkembang. Proses ini tidak terjadi dalam satu hari — tetapi semakin kita
+    konsisten, semakin jelas pula gambaran tentang siapa diri kita sebenarnya.
+  </p>
+
+  <p>
+    Pada akhirnya, mengenal diri bukan sekadar “tahu siapa kita”, tetapi juga berani
+    bertanggung jawab atas pilihan hidup. Semakin baik kita mengenal diri, semakin siap kita
+    menghadapi tantangan dan membangun masa depan yang lebih terarah.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h=document.getElementById("pilihMateri").value;
+  if(h) location.href=h;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 2 - Disiplin dan Manajemen Waktu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 2 — Disiplin & Manajemen Waktu</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html" selected>Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Disiplin membantu seseorang konsisten melakukan hal yang benar meskipun terasa sulit.
+    Manajemen waktu mengajarkan kita menata prioritas, membedakan hal penting dan mendesak,
+    serta menghindari kebiasaan menunda. Dengan jadwal sederhana dan target harian,
+    produktivitas meningkat dan stres berkurang karena pekerjaan dikelola secara terencana.
+  </p>
+
+  <p>
+    Banyak orang gagal bukan karena tidak mampu, tetapi karena kurang disiplin dalam memulai.
+    Sedikit demi sedikit, kebiasaan menunda membuat pekerjaan menumpuk dan akhirnya terasa berat.
+    Dengan membangun rutinitas yang jelas — seperti bangun lebih awal, menyiapkan daftar tugas,
+    dan mengerjakan hal penting lebih dulu — kita melatih diri untuk lebih bertanggung jawab.
+  </p>
+
+  <p>
+    Manajemen waktu juga berarti berani berkata “tidak” pada hal-hal yang tidak perlu.
+    Media sosial, game, dan aktivitas yang tidak produktif sering mencuri waktu tanpa kita sadari.
+    Ketika kita tahu tujuan yang ingin dicapai, kita akan lebih bijak memilih mana yang harus
+    dilakukan sekarang, mana yang bisa ditunda, dan mana yang sebaiknya dihilangkan.
+  </p>
+
+  <p>
+    Cara sederhana melatih disiplin bisa dimulai dengan membuat jadwal mingguan,
+    menggunakan alarm atau pengingat, serta mengevaluasi kegiatan di akhir hari.
+    Jika ada tugas yang belum selesai, cari tahu penyebabnya: apakah karena sulit,
+    kurang fokus, atau memang tidak direncanakan dengan baik. Dari evaluasi inilah
+    kita belajar memperbaiki pola kerja.
+  </p>
+
+  <p>
+    Pada akhirnya, disiplin dan manajemen waktu bukan hanya tentang menyelesaikan tugas,
+    tetapi tentang membangun kebiasaan hidup yang teratur. Orang yang disiplin cenderung
+    lebih dipercaya, lebih tenang, dan memiliki peluang lebih besar untuk mencapai tujuan
+    jangka panjangnya.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h = document.getElementById("pilihMateri").value;
+  if (h) location.href = h;
+}
+</script>
+
+</body>
+</html>

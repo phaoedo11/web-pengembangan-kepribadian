@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pengembangan Kepribadian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Website Pengembangan Kepribadian</h1>
+</header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+  <a href="tentang.html">Tentang</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()" style="padding:6px;">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+    <option value="materi9.html">Materi 9</option>
+    <option value="materi10.html">Materi 10</option>
+    <option value="materi11.html">Materi 11</option>
+    <option value="materi12.html">Materi 12</option>
+    <option value="materi13.html">Materi 13</option>
+    <option value="materi14.html">Materi 14</option>
+  </select>
+</nav>
+
+<section>
+  <h2>Selamat Datang</h2>
+  <p>
+    Website ini dirancang sebagai media pembelajaran sederhana tentang pengembangan kepribadian. 
+    Di dalamnya terdapat berbagai materi yang membantu kita memahami diri sendiri, membangun kebiasaan positif, 
+    serta mengembangkan sikap yang mendukung kesuksesan akademik maupun kehidupan sehari-hari. 
+    Melalui pembahasan bertahap, diharapkan pengunjung dapat belajar secara mandiri sekaligus mengevaluasi perkembangan dirinya.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 — Pengembangan Kepribadian</p>
+</footer>
+
+<script>
+  function bukaMateri() {
+    const halaman = document.getElementById("pilihMateri").value;
+    if (halaman !== "") window.location.href = halaman;
+  }
+</script>
+
+</body>
+</html>

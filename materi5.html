@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 5 - Mengelola Emosi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 5 — Mengelola Emosi</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html" selected>Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Emosi adalah bagian alami dari diri manusia. Namun, emosi yang tidak terkontrol
+    dapat memicu keputusan buruk. Mengelola emosi berarti mampu menenangkan diri,
+    berpikir sejenak sebelum bereaksi, dan mengekspresikan perasaan dengan cara yang tepat.
+    Keterampilan ini membuat seseorang lebih stabil dan dewasa.
+  </p>
+
+  <p>
+    Setiap orang memiliki cara berbeda dalam mengekspresikan emosi.
+    Ada yang mudah marah, ada yang memendam perasaan terlalu lama,
+    dan ada pula yang meledak saat tekanan semakin besar. Menyadari
+    pola emosi diri sendiri adalah langkah awal untuk mengendalikannya.
+  </p>
+
+  <p>
+    Salah satu cara sederhana mengelola emosi adalah dengan mengambil
+    jeda singkat: menarik napas dalam, menghitung perlahan, atau
+    menjauh sementara dari situasi yang memicu emosi. Jeda ini memberi
+    ruang bagi otak untuk berpikir lebih jernih sebelum bertindak.
+  </p>
+
+  <p>
+    Mengelola emosi tidak berarti menahan perasaan selamanya.
+    Emosi tetap perlu disalurkan, tetapi dengan cara yang sehat —
+    seperti berbicara dengan orang yang dipercaya, menulis jurnal,
+    berolahraga, atau menyalurkan energi pada aktivitas positif.
+  </p>
+
+  <p>
+    Orang yang mampu mengelola emosinya cenderung lebih mudah bekerja sama,
+    tidak gampang tersinggung, dan mampu menyelesaikan konflik dengan tenang.
+    Kemampuan ini sangat penting, baik dalam pertemanan, keluarga,
+    maupun dunia kerja di masa depan.
+  </p>
+
+  <p>
+    Seiring waktu, latihan mengelola emosi akan membentuk pribadi yang lebih sabar,
+    bijaksana, dan tidak mudah dikendalikan oleh perasaan sesaat.
+    Dengan mengenali emosi dan belajar mengarahkannya, kita dapat membuat
+    keputusan yang lebih baik untuk diri sendiri dan orang lain.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h = document.getElementById("pilihMateri").value;
+  if (h) location.href = h;
+}
+</script>
+
+</body>
+</html>

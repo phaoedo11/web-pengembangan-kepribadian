@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 3 - Tanggung Jawab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 3 — Tanggung Jawab Pribadi</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html" selected>Materi 3</option>
+    <option value="materi4.html">Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Tanggung jawab berarti kesadaran bahwa setiap tindakan memiliki konsekuensi.
+    Individu yang bertanggung jawab tidak mudah menyalahkan orang lain, tetapi belajar
+    dari kesalahan yang terjadi. Sikap ini membentuk kedewasaan, kepercayaan orang lain,
+    serta menjadikan seseorang lebih siap menghadapi tantangan di masa depan.
+  </p>
+
+  <p>
+    Tanggung jawab dimulai dari hal-hal kecil: menyelesaikan tugas tepat waktu,
+    menjaga barang milik sendiri, serta mematuhi aturan yang berlaku. Ketika seseorang
+    terbiasa melalaikan hal kecil, ia akan kesulitan memikul tanggung jawab yang lebih besar.
+    Sebaliknya, kebiasaan disiplin pada hal sederhana akan melatih karakter yang kuat.
+  </p>
+
+  <p>
+    Orang yang bertanggung jawab juga bersedia mengakui kesalahannya.
+    Mengakui kesalahan bukan berarti lemah — justru menunjukkan keberanian
+    dan kejujuran. Dari pengakuan itu, seseorang dapat memperbaiki diri,
+    meminta maaf jika perlu, dan berusaha agar kesalahan yang sama tidak terulang.
+  </p>
+
+  <p>
+    Dalam kehidupan sehari-hari, tanggung jawab berkaitan dengan berbagai peran:
+    sebagai pelajar, anak dalam keluarga, teman, maupun anggota masyarakat.
+    Setiap peran memiliki kewajiban yang harus dijalankan. Saat seseorang mampu
+    menyeimbangkan semua peran tersebut, ia akan tumbuh menjadi pribadi yang
+    lebih percaya diri dan dapat diandalkan.
+  </p>
+
+  <p>
+    Belajar bertanggung jawab membutuhkan waktu, latihan, dan kemauan.
+    Kita bisa memulainya dengan membuat janji pada diri sendiri, lalu
+    berusaha menepatinya. Semakin sering kita memegang komitmen,
+    semakin kuat rasa tanggung jawab yang terbentuk dalam diri kita.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h = document.getElementById("pilihMateri").value;
+  if (h) location.href = h;
+}
+</script>
+
+</body>
+</html>

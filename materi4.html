@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi 4 - Komunikasi Efektif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Materi 4 — Komunikasi yang Efektif</h1></header>
+
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="materi.html">Daftar Materi</a>
+
+  <select id="pilihMateri" onchange="bukaMateri()">
+    <option value="">-- Pilih Materi --</option>
+    <option value="materi1.html">Materi 1</option>
+    <option value="materi2.html">Materi 2</option>
+    <option value="materi3.html">Materi 3</option>
+    <option value="materi4.html" selected>Materi 4</option>
+    <option value="materi5.html">Materi 5</option>
+    <option value="materi6.html">Materi 6</option>
+    <option value="materi7.html">Materi 7</option>
+    <option value="materi8.html">Materi 8</option>
+  </select>
+</nav>
+
+<section>
+  <p>
+    Komunikasi efektif bukan hanya tentang berbicara, tetapi juga mendengar dengan empati.
+    Dengan memahami lawan bicara, pesan dapat tersampaikan jelas tanpa menyinggung.
+    Kemampuan berkomunikasi membantu membangun relasi yang baik, memecahkan masalah,
+    dan mengurangi konflik dalam kehidupan sehari-hari.
+  </p>
+
+  <p>
+    Dalam komunikasi, pilihan kata, nada suara, dan bahasa tubuh memiliki peran penting.
+    Kalimat yang sama bisa terasa berbeda jika disampaikan dengan emosi yang salah.
+    Karena itu, penting untuk tetap tenang, mengatur intonasi, dan menggunakan bahasa
+    yang sopan agar pesan diterima dengan baik.
+  </p>
+
+  <p>
+    Mendengarkan secara aktif berarti fokus pada apa yang disampaikan orang lain,
+    bukan sekadar menunggu giliran berbicara. Kita mencoba memahami maksudnya,
+    menanyakan hal yang belum jelas, dan tidak langsung menyela. Sikap ini membuat
+    lawan bicara merasa dihargai dan terbuka untuk berdiskusi.
+  </p>
+
+  <p>
+    Komunikasi yang efektif juga membutuhkan kejujuran dan keterbukaan.
+    Namun, kejujuran tetap harus disampaikan dengan cara yang bijak.
+    Jika ada kritik, sampaikan dengan bahasa yang membangun dan sertakan
+    solusi. Dengan begitu, komunikasi tidak menimbulkan pertengkaran,
+    tetapi justru membantu kedua pihak berkembang.
+  </p>
+
+  <p>
+    Di era digital, komunikasi sering terjadi melalui pesan singkat atau media sosial.
+    Karena tidak ada ekspresi wajah atau nada suara, kesalahpahaman mudah muncul.
+    Oleh sebab itu, kita perlu menulis dengan jelas, tidak terburu-buru,
+    dan menghindari kata-kata yang berpotensi menyinggung.
+  </p>
+
+  <p>
+    Melatih komunikasi yang baik membutuhkan kebiasaan: berani berbicara sopan,
+    belajar mendengar, dan tidak memaksakan pendapat. Ketika kemampuan ini terbentuk,
+    kita akan lebih mudah bekerja sama, bersosialisasi, dan membangun hubungan
+    yang sehat dengan orang lain.
+  </p>
+</section>
+
+<footer><p>© 2026 — Pengembangan Kepribadian</p></footer>
+
+<script>
+function bukaMateri(){
+  const h = document.getElementById("pilihMateri").value;
+  if (h) location.href = h;
+}
+</script>
+
+</body>
+</html>
