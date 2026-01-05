@@ -1,7 +1,16 @@
 body { font-family: Arial; margin:0; }
-header { background:#1f6feb; color:white; padding:20px; }
+header {
+  background-image: url("gambar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
 nav { background:#f0f0f0; padding:10px; display:flex; gap:12px; align-items:center; }
 section { padding:20px; line-height:1.6; }
 footer { background:#222; color:#fff; padding:10px; text-align:center; }
 a { text-decoration:none; color:#1f6feb; }
 a:hover { text-decoration:underline; }
+
