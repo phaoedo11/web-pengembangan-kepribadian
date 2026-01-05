@@ -1,6 +1,6 @@
 body { font-family: Arial; margin:0; }
 header {
-  background-image: url("gambar.jpg");
+  background-image: url("img/gambar.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,4 +13,5 @@ section { padding:20px; line-height:1.6; }
 footer { background:#222; color:#fff; padding:10px; text-align:center; }
 a { text-decoration:none; color:#1f6feb; }
 a:hover { text-decoration:underline; }
+
 
